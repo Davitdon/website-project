@@ -1,0 +1,67 @@
+html {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, hwb(0 0% 100%), hsl(0, 85%, 8%));
+     /*#121212;*/
+
+}
+
+a {
+    text-decoration: none;
+    color:red;
+}
+
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 10%;
+    right: 10%;
+}
+
+.space-between {
+    display: flex;
+    justify-content: space-around;
+    border: 3px solid red;
+    border-right: 10px;
+    border-left: 10px;
+}
+
+.column2 {
+    display: flex;
+    flex-direction: column;
+    left: 33%;
+    width: 33%;
+
+}
+
+.cell {
+    display: flex;
+    flex-direction: row;
+    left: 33%;
+    width: 33%;
+
+}
+
+.column {
+    display: flex;
+}
+
+.column3 {
+    display: flex;
+}
+
+.box {
+    border: 5px solid red;
+    width: 50%;
+}
+
+[type="submit"] {
+    width: 100px;
+    align-content:center;
+    text-align: center;
+    background-color: red; 
+    color: whitesmoke;
+    border-color: darkred;
+}
